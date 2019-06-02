@@ -10,7 +10,7 @@ router.get("/", function (req, res) {
     })
 })
 
-// Update method
+// Update 
 router.put('/burgers/update', function (req, res) {
     burger.update(req.body.burger_id, function (result) {
         res.redirect('/');
