@@ -1,26 +1,29 @@
-var connection = ('./connection.js');
+var connection = require('./connection.js');
 
+//ALL 
 var orm = {
     all: function (tableInput, cb) {
-        connection.query("Select * From " + tableInput + ";", function (err, result) {
-            if (err) throw err; 
+        connection.query("SELECT * FROM " + tableInput + ";", function (err, result) {
+            if (err) throw err;
             cb(result)
         })
     },
-// Update Method
+    //UPDATE METHOD
     update: function (tableInput, condition, cb) {
         connection.query("UPDATE " + tableInput + " SET devoured=true WHERE id=" + condition + ";", function (err, result) {
             if (err) throw err;
             cb(result);
         })
     },
-// Create Method
+    //UPDATE METHOD
     create: function (tableInput, val, cb) {
         connection.query("INSERT INTO " + tableInput + " (burger_name)VALUES('" + val + "'); ", function (err, result) {
             if (err) throw err;
             cb(result);
         })
+
     }
+
 }
 
 module.exports = orm;

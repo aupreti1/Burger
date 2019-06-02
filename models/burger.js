@@ -6,13 +6,11 @@ var burger = {
             cb(res);
         })
     },
-
-    // Update
+    //UPDATE 
     update: function (id, cb) {
         orm.update('burgers', id, cb);
     },
-
-    // Create
+    //CREATE
     create: function (name, cb) {
         orm.create('burgers', name, cb);
     }
