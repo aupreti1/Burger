@@ -1,4 +1,3 @@
-//dependencies
 var express = require('express');
 var bodyParser = require('body-parser');
 var exphbs = require('express-handlebars');
@@ -24,6 +23,7 @@ app.set('view engine', 'handlebars');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+
 //linking controller route
 var routes = require('./controllers/burgers_controller.js');
 
@@ -34,4 +34,3 @@ app.listen(PORT, function () {
     console.log("Server listening  on: http://localhost:" + PORT);
 });
 
-//done
