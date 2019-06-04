@@ -1,7 +1,22 @@
 h1 {
-    color: #9e002e
+    color: #6652a3;
+    font-size: 30px;
+    font-family: 'Domine', serif;
+    font-family: 'Permanent Marker', cursive;
 }
 
 body{
-    background-image: url("")
+    margin: 0px 350px;
+}
+
+p {
+    color: #a3297a;
+    font-size: 25px;
+    font-family: 'Domine', serif;
+}
+
+.container{
+    background-color: #9ebad1;
+    height: 300px;
+    width: 550px
 }
