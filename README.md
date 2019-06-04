@@ -16,6 +16,6 @@ HOW IT WORKS:
 * When the user click on devour, the burger is dropped down to the eaten list.
 
 
-![added](./images/burger1.png?raw=true "Optional Title")
+![added](./public/assets/images/burger1.png?raw=true "Optional Title")
 
-![devoured](./images/burger2.png?raw=true "Optional Title")
+![devoured](./public/assets/images/burger2.png?raw=true "Optional Title")
