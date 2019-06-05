@@ -7,16 +7,30 @@ h1 {
 
 body{
     margin: 0px 350px;
+    
 }
 
 p {
     color: #a3297a;
     font-size: 25px;
     font-family: 'Domine', serif;
+    background-color: #9ebad1;
+    margin: 0px;
+}
+
+pre{
+    color: darkslateblue;
+    font-size: 20px;
+}
+
+.row{
+    background-color: #9ebad1;
 }
 
 .container{
     background-color: #9ebad1;
-    height: 300px;
-    width: 550px
+}
+
+.sec-col {
+    background-color: #9ebad1;
 }
